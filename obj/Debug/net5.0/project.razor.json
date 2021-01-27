@@ -15603,13 +15603,28 @@
   "RootNamespace": "WebJdr",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Post\\Delete.cshtml",
+      "TargetPath": "Views\\Post\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Post\\Create.cshtml",
+      "TargetPath": "Views\\Post\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Post\\Index.cshtml",
+      "TargetPath": "Views\\Post\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15620,6 +15635,16 @@
     {
       "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Post\\Details.cshtml",
+      "TargetPath": "Views\\Post\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Post\\Edit.cshtml",
+      "TargetPath": "Views\\Post\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
