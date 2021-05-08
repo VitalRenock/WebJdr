@@ -1,0 +1,70 @@
+@model WebJdr.Models.Save
+@{
+    ViewData["Title"] = "Select Story";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+@{
+    Story tempStory = new Story();
+    tempStory.Name = "Temporary Story";
+
+    Model.CurrentStory = tempStory;
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+
+        <form asp-action="CreateCharacter">
+
+            <select name="number">
+                <option value="">Select a number</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+
+            <div class="form-group">
+                <input type="submit" value="Select" class="btn btn-primary" />
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+<div>
+    <a asp-action="CreateCharacter">Créer un personnage</a>
+</div>
+
+@* @{
+    Story NewStory = new Story();
+    NewStory.Title = "Ma super histoire de chevaliers!";
+
+    Model.CurrentStory = NewStory;
+    } *@
+
+@* <div class="row">
+    <div class="col-md-4">
+
+    <form asp-action="SelectStory">
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+    <label asp-for="CurrentSequence"></label>
+    <input asp-for="CurrentSequence" class="form-control" />
+    <span asp-validation-for="CurrentSequence" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+    <input type="submit" value="Select" class="btn btn-primary" />
+    </div>
+
+    </form>
+
+    </div>
+    </div> *@

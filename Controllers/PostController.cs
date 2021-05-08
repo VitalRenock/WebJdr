@@ -12,6 +12,8 @@ namespace WebJdr.Controllers
 {
     public class PostController : Controller
     {
+        #region DB Context
+
         private readonly DatabaseContext _context;
 
         public PostController(DatabaseContext context)
@@ -19,11 +21,19 @@ namespace WebJdr.Controllers
             _context = context;
         }
 
+        #endregion
+
+        #region Index
+
         // GET: Post
         public async Task<IActionResult> Index()
         {
             return View(await _context.Posts.ToListAsync());
         }
+            
+        #endregion
+
+        #region Details
 
         // GET: Post/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -42,7 +52,11 @@ namespace WebJdr.Controllers
 
             return View(post);
         }
-
+            
+        #endregion
+        
+        #region Create
+            
         // GET: Post/Create
         public IActionResult Create()
         {
@@ -64,6 +78,10 @@ namespace WebJdr.Controllers
             }
             return View(post);
         }
+
+        #endregion
+        
+        #region Edit
 
         // GET: Post/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -115,6 +133,10 @@ namespace WebJdr.Controllers
             }
             return View(post);
         }
+            
+        #endregion
+        
+        #region Delete
 
         // GET: Post/Delete/5
         public async Task<IActionResult> Delete(int? id)
@@ -144,6 +166,8 @@ namespace WebJdr.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+            
+        #endregion
 
         private bool PostExists(int id)
         {

@@ -15603,6 +15603,16 @@
   "RootNamespace": "WebJdr",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Home\\Admin.cshtml",
+      "TargetPath": "Views\\Home\\Admin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\User\\Details.cshtml",
+      "TargetPath": "Views\\User\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Post\\Delete.cshtml",
       "TargetPath": "Views\\Post\\Delete.cshtml",
       "FileKind": "mvc"
@@ -15615,6 +15625,11 @@
     {
       "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Post\\Create.cshtml",
       "TargetPath": "Views\\Post\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\User\\Edit.cshtml",
+      "TargetPath": "Views\\User\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15633,6 +15648,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\User\\Index.cshtml",
+      "TargetPath": "Views\\User\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -15648,18 +15668,43 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Dashboard\\NewGame.cshtml",
+      "TargetPath": "Views\\Dashboard\\NewGame.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Dashboard\\SelectStory.cshtml",
+      "TargetPath": "Views\\Dashboard\\SelectStory.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\User\\Delete.cshtml",
+      "TargetPath": "Views\\User\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Dashboard\\Index.cshtml",
+      "TargetPath": "Views\\Dashboard\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Dashboard\\CreateCharacter.cshtml",
+      "TargetPath": "Views\\Dashboard\\CreateCharacter.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\User\\Create.cshtml",
+      "TargetPath": "Views\\User\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\renau\\Documents\\WebApp Projects\\WebJdr\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
